@@ -1,3 +1,12 @@
+<head>
+  <!-- Mermaid CDN (change version as desired) -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  // initialize mermaid to process elements with class "mermaid"
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</head>
+
 # Architecture Overview
 
 ```mermaid
@@ -67,10 +76,3 @@ flowchart LR
   Repo --> Main
   Repo --> Feature
 ```
-
-<!-- Mermaid CDN (change version as desired) -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-  // initialize mermaid to process elements with class "mermaid"
-  mermaid.initialize({ startOnLoad: true });
-</script>
